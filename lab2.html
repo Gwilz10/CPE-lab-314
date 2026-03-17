@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+</head>
+<body>
+    <header>
+        <h1>24/EG/CO/155</h1>
+        <h1>Student Profile</h1>
+        <nav>
+            <a href="#profile">Profile</a>
+            <a href="#students">Students</a>
+            <a href="contact">contact</a>
+        </nav>
+    </header>
+    <main>
+        <article id="Profile">
+            <section>
+                <h2>Student Profile Picture</h2>
+                <img src="image\ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="Profile Picture" width="200" height="150">
+            </section>
+        </article>
+
+        <article id="students">
+            <section>
+                <h2>Student Information</h2>
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Major</th>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>21</td>
+                        <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>22</td>
+                        <td>Food Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Johnson</td>
+                        <td>20</td>
+                        <td>Theatre Arts</td>
+                    </tr>
+                    <tr>
+                        <td>Sarah Williams</td>
+                        <td>23</td>
+                        <td>Civil Engineering</td>
+                    </tr>
+                </table>  
+            </section>
+        </article>
+
+        <article id="contact">
+            <section>
+                <h2>Contact Form</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+
+                    <label for="comments">Comments:</label><br>
+                    <textarea name="comments" id="name" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br><br>
+
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Profile Page. All rights reserved.</p>
+        <p>Contact: <a href="mailto:info@studentprofile.com">info@studentprofile.com</a></p>
+    </footer>
+</body>
+</html>
